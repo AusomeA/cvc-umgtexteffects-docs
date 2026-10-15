@@ -1,0 +1,9 @@
+# GitHub Pages settings for the UMG Text Effects documentation (https://ausomea.github.io/cvc-umgtexteffects-docs/).
+# Publish this folder as the repository root. README.md becomes the start page, and links between the .md pages are
+# turned into links between the generated pages (GitHub Pages' default jekyll-readme-index and jekyll-relative-links).
+title: UMG Text Effects
+description: Per-letter text effects and a typewriter for Unreal Engine UMG. Documentation.
+theme: jekyll-theme-primer
+markdown: kramdown
+kramdown:
+  input: GFM
