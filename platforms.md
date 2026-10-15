@@ -10,11 +10,11 @@ What we ran on each engine before release:
 
 | Engine | Built from the download (RunUAT BuildPlugin) | Automation tests | Other checks |
 |---|---|---|---|
-| 5.4 | Win64 (Editor, Development, Shipping), 0 warnings | 101 of 101 pass | Android arm64 (Development, Shipping), NDK r25b |
-| 5.5 | Win64 (Editor, Development, Shipping) and Android arm64 (Development, Shipping), 0 warnings | 101 of 101 pass | |
-| 5.6 | Win64 (Editor, Development, Shipping) and Android arm64 (Development, Shipping), 0 warnings | 101 of 101 pass | Demo app run on an Android emulator |
-| 5.7 | Win64 (Editor, Development, Shipping), 0 warnings | 101 of 101 pass | Benchmarks, UMG Designer preview |
-| 5.8 | Win64 (Editor, Development, Shipping), 0 warnings | 101 of 101 pass | |
+| 5.4 | Win64 (Editor, Development, Shipping), 0 warnings | 105 of 105 pass | Android arm64 (Development, Shipping), NDK r25b |
+| 5.5 | Win64 (Editor, Development, Shipping) and Android arm64 (Development, Shipping), 0 warnings | 105 of 105 pass | |
+| 5.6 | Win64 (Editor, Development, Shipping) and Android arm64 (Development, Shipping), 0 warnings | 105 of 105 pass | Demo app run on an Android emulator |
+| 5.7 | Win64 (Editor, Development, Shipping), 0 warnings | 105 of 105 pass | Benchmarks, UMG Designer preview |
+| 5.8 | Win64 (Editor, Development, Shipping), 0 warnings | 105 of 105 pass | |
 
 Every row was run on 2026-10-15 from the same files you download.
 
