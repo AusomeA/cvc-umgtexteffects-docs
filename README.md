@@ -4,6 +4,8 @@ Per-letter text effects and a typewriter for Unreal Engine UMG. 50 effects, 32 p
 in the UMG Designer. It works on Epic's own Rich Text Block (add one decorator) and as a drop-in UTE Text Block widget.
 No engine changes, no shaders, full C++ source.
 
+**Get it on Fab:** [UMG Text Effects](https://www.fab.com/listings/b359ade4-c187-4e95-9d6b-e8bed072560a) (UE 5.4-5.8).
+
 ```
 Hello <wave>traveler</>, the <angry>dragon</> is <rainbow>awake</>!
 ```
