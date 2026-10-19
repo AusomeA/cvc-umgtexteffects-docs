@@ -38,7 +38,7 @@ Hello <wave>traveler</>, the <angry>dragon</> is <rainbow>awake</>!
 - **Cheap to draw.** Moving letters are drawn in one element per text block; finished text is drawn by Epic's own code
   path. [Measured numbers](performance.md).
 - **Demo map and widget** with every effect and preset labelled, and a dialogue box example.
-- **UE 5.4 to 5.8**, Windows. Android compiled on 5.4 to 5.6 (5.7 and 5.8 coming).
+- **UE 5.4 to 5.8**, Windows. Android compiled on 5.4 to 5.8.
 
 ## Support
 

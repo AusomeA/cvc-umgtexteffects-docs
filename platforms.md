@@ -13,17 +13,17 @@ What we ran on each engine before release:
 | 5.4 | Win64 (Editor, Development, Shipping), 0 warnings | 105 of 105 pass | Android arm64 (Development, Shipping), NDK r25b |
 | 5.5 | Win64 (Editor, Development, Shipping) and Android arm64 (Development, Shipping), 0 warnings | 105 of 105 pass | |
 | 5.6 | Win64 (Editor, Development, Shipping) and Android arm64 (Development, Shipping), 0 warnings | 105 of 105 pass | Demo app run on an Android emulator |
-| 5.7 | Win64 (Editor, Development, Shipping), 0 warnings | 105 of 105 pass | Benchmarks, UMG Designer preview |
-| 5.8 | Win64 (Editor, Development, Shipping), 0 warnings | 105 of 105 pass | |
+| 5.7 | Win64 (Editor, Development, Shipping) and Android arm64 (Development, Shipping), 0 warnings | 105 of 105 pass | Benchmarks, UMG Designer preview |
+| 5.8 | Win64 (Editor, Development, Shipping) and Android arm64 (Development, Shipping), 0 warnings | 105 of 105 pass | |
 
-Every row was run on 2026-10-15 from the same files you download.
+Every row was run on 2026-10-15 from the same files you download. The Android arm64 builds on 5.7 and 5.8 were added on 2026-10-19 (NDK 27.2), with the 105 tests run again on both.
 
 ## Platforms
 
 | Platform | Status in 1.0 |
 |---|---|
 | Windows (Win64) | Supported. Built, tested and benchmarked on every engine version |
-| Android | Supported. Built for arm64 with UE 5.4, 5.5 and 5.6 (5.7 and 5.8 are listed too; their Android compile check is pending). The demo app (UE 5.6) runs on an Android emulator: every effect, preset and the typewriter draw and animate, and Repel follows a finger. Read on one physical phone, a Galaxy S24+, at a steady 60 fps (see [Performance](performance.md#android)) |
+| Android | Supported. Built for arm64 with UE 5.4, 5.5, 5.6, 5.7 and 5.8 (5.7 and 5.8 compiled 2026-10-19; the headless tests pass on both). The demo app (UE 5.6) runs on an Android emulator: every effect, preset and the typewriter draw and animate, and Repel follows a finger. Read on one physical phone, a Galaxy S24+, at a steady 60 fps (see [Performance](performance.md#android)) |
 | Mac, Linux, iOS | Not enabled in 1.0. The plugin has no platform-specific code and no shaders, but we could not compile or test these platforms, so the modules' platform allow lists do not include them yet |
 
 The plugin draws only with Slate's own text elements (the same draws a stock Rich Text Block makes), so it works with
